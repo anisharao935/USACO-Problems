@@ -1,3 +1,6 @@
+/* 2021 January Contest, Silver Problem #1: Dance Mooves
+http://usaco.org/index.php?page=viewproblem2&cpid=1086
+topics: graph theory, cycles */
 import java.io.*;
 import java.util.*;
 public class mooves {
@@ -48,6 +51,7 @@ public class mooves {
 
 
     static void traverse(int n, ArrayList<Integer>[] positions, int N) {
+        /* follows a position n through its cycle and all linked positions */
         HashSet<Integer> toAdd = new HashSet<>();
         toAdd.add(n);
         int[] timesInCycle = new int[N+1];
