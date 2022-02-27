@@ -1,3 +1,6 @@
+/* 2020 January Contest, Gold Problem #1: Time is Mooney
+http://www.usaco.org/index.php?page=viewproblem2&cpid=993
+topics: dynamic programming, greedy */
 import java.io.*;
 import java.util.*;
 public class time {
