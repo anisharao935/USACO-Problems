@@ -1,3 +1,5 @@
+/* 2020 US Open Contest, Silver Problem #2: Cereal
+http://www.usaco.org/index.php?page=viewproblem2&cpid=1039 topics: recursion, simulation */
 import java.io.*;
 import java.util.*;
 public class cereal {
@@ -29,9 +31,6 @@ public class cereal {
         count = 0;
         for (int i=N-1;i>=0;i--) {
             assign(i, 1);
-            //System.out.println(Arrays.toString(cowToCereal));
-            //System.out.println(Arrays.toString(cerealToCow));
-            //System.out.println(Arrays.toString(hasNext));
             answers[i] = count;
         }
         // write result
