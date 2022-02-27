@@ -1,3 +1,6 @@
+/* 2018 February Contest, Gold Problem #1: Snow Boots
+http://www.usaco.org/index.php?page=viewproblem2&cpid=813
+topics: sorting, data structures */
 import java.io.*;
 import java.util.*;
 public class snowboots {
